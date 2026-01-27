@@ -1,0 +1,12 @@
+'''
+Pozitīvs, negatīvs vai nulle
+Ievade: skaitlis
+Uzdevums: izvada, vai skaitlis ir pozitīvs, negatīvs vai 0.
+'''
+sk = int(input('Ievadi veselu skaitli: '))
+if sk > 0:
+    print('Skaitlis ir pozitīvs')
+elif sk < 0:
+    print('Skaitlis ir negatīvs')
+else:
+    print('Skaitlis ir 0')
