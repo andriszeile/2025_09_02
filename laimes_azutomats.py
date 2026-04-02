@@ -14,9 +14,7 @@ Pēc katra gājiena:
 izvada izlozētos skaitļus
 parāda monētu skaitu
 '''
-
 import random
-
 monetas = 10
 while monetas > 0:
     print(f'Jums ir pieejamas {monetas} monētas.')
